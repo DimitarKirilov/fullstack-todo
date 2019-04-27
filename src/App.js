@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 import React, { Component } from "react";
 import { BrowserRouter as Router, Route, Link } from "react-router-dom";
 
@@ -23,10 +22,10 @@ class App extends Component {
             <div className="collpase navbar-collapse">
               <ul className="navbar-nav mr-auto">
                 <li className="navbar-item">
-                  <Link to="/" className="nav-link">Todos</Link>
+                  <Link to="/" className="nav-link">View</Link>
                 </li>
                 <li className="navbar-item">
-                  <Link to="/create" className="nav-link">Create Todo</Link>
+                  <Link to="/create" className="nav-link">Create</Link>
                 </li>
               </ul>
             </div>
@@ -39,31 +38,6 @@ class App extends Component {
       </Router>
     );
   }
-=======
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
-
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
->>>>>>> parent of 9bec021f... skeleton app
 }
 
 export default App;
